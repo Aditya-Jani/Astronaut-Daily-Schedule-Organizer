@@ -41,23 +41,18 @@ Tasks include a description, start time, end time, and priority level (low/mediu
 ---
 
 ## Directory Structure
-.
-├── README.md
-├── src
-│   ├── Main.java                        # Main class that handles user input and interactions
-│   ├── behavioral
-│   │   ├── Command.java                 # Command interface for task actions
-│   │   ├── AddTaskCommand.java          # Concrete class for adding tasks
-│   │   ├── RemoveTaskCommand.java       # Concrete class for removing tasks
-│   │   ├── EditTaskCommand.java         # Concrete class for editing tasks
-│   │   ├── ConflictObserver.java        # Observer for task conflict detection
-│   ├── creational
-│   │   ├── TaskFactory.java             # Factory for creating tasks
-│   │   ├── SingletonScheduleManager.java# Singleton for task management
-│   ├── structural
-│   │   ├── Task.java                    # Task entity class
-│   │   ├── ScheduleManagerFacade.java   # Facade to simplify task management
-├── logs
-│   ├── application.log                  # Log file for application events and errors
-└── README.md
+![image](https://github.com/user-attachments/assets/0d6c0fd3-e44b-42fe-b5c5-6ffc921ea2ca)
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Compile and run `Main.java`.
+3. Follow the on-screen instructions to manage the daily schedule.
+
+---
+
+## Logging
+
+Logs will be generated and saved in the `logs/application.log` file. You can view task events, errors, and system notifications here.
+
 
