@@ -41,4 +41,23 @@ Tasks include a description, start time, end time, and priority level (low/mediu
 ---
 
 ## Directory Structure
+.
+├── README.md
+├── src
+│   ├── Main.java                        # Main class that handles user input and interactions
+│   ├── behavioral
+│   │   ├── Command.java                 # Command interface for task actions
+│   │   ├── AddTaskCommand.java          # Concrete class for adding tasks
+│   │   ├── RemoveTaskCommand.java       # Concrete class for removing tasks
+│   │   ├── EditTaskCommand.java         # Concrete class for editing tasks
+│   │   ├── ConflictObserver.java        # Observer for task conflict detection
+│   ├── creational
+│   │   ├── TaskFactory.java             # Factory for creating tasks
+│   │   ├── SingletonScheduleManager.java# Singleton for task management
+│   ├── structural
+│   │   ├── Task.java                    # Task entity class
+│   │   ├── ScheduleManagerFacade.java   # Facade to simplify task management
+├── logs
+│   ├── application.log                  # Log file for application events and errors
+└── README.md
 
